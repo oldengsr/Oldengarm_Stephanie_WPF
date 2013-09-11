@@ -20,3 +20,5 @@ var bagsYear = Math.round(poundsYear / poundsPerBag);
 
 var costYear = Math.round(bagsYear * bagPrice);
 //calculates the cost of dog food per year based on number of bags and price per bag.
+
+alert("Based on your input, you will require " + poundsYear + " lbs. of dog food, " + bagsYear + " bags of your chosen dog food, and will spend $" + costYear + " per year.");
