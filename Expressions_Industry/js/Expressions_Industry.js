@@ -18,3 +18,10 @@ var a = prompt("How many cartons were used in Week 1?");
 var b = prompt("How many cartons were used in Week 2?");
 var c = prompt("How many cartons were used in Week 3?");
 var d = prompt("How many cartons were used in Week 4?");
+
+var totalUsed = +a + +b + +c + +d //add together user input for each week for month's use
+
+var averageWeek = totalUsed / 4
+
+var casesNeeded = totalUsed / 6
+//divide the total used for the month by the 6 cartons in each case to find how many cases are needed.
