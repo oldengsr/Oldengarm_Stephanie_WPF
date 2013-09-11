@@ -1,8 +1,6 @@
-//casting
+//Assignment Operators
 
-var areaCode = 757;
-var firstPart = 603;
-var secPart = 1467;
-//(757) 603-1647
-var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
-console.log(phoneNo);
+var a = 3;
+//a ++; //a = a + 1 //a + = 1
+a --; //a = a - 1 //a - = 1
+console.log(a);
