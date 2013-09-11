@@ -10,8 +10,9 @@ GrocerySpending[3] = 90;
 GrocerySpending[4] = 75;
 
 totalSpent = GrocerySpending[0] + GrocerySpending[1] + GrocerySpending[2] + GrocerySpending[3] + GrocerySpending[4]
+//total = each week spending added together.
 
 averageSpent = totalSpent / 5
-//average = total amount spent/number of weeks
+//average = total amount spent divided by the number of weeks
 
 console.log("You have spent a total of $" + totalSpent + " " + "on groceries over 5 weeks. That is an average of $" + averageSpent + " " + "per week");
