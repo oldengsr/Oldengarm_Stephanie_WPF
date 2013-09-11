@@ -2,9 +2,9 @@
 
 var slicesPizza = 8; //number of slices per pizza.
 
-var partyPeople = 10; //number of people at party.
+var partyPeople = 5; //number of people at party.
 
-var pizzaOrdered = 4; //number of pizzas ordered.
+var pizzaOrdered = 6; //number of pizzas ordered.
 
 var totalSlices = pizzaOrdered * slicesPizza;
 
