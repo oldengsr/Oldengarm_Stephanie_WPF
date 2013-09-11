@@ -13,3 +13,8 @@ yogurtUse[2] = c
 console.log(yogurtUse[2]);
 yogurtUse[3] = d
 console.log(yogurtUse[3]);
+
+var a = prompt("How many cartons were used in Week 1?");
+var b = prompt("How many cartons were used in Week 2?");
+var c = prompt("How many cartons were used in Week 3?");
+var d = prompt("How many cartons were used in Week 4?");
