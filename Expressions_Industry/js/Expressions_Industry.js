@@ -25,3 +25,5 @@ var averageWeek = totalUsed / 4
 
 var casesNeeded = totalUsed / 6
 //divide the total used for the month by the 6 cartons in each case to find how many cases are needed.
+
+alert("You have used " + totalUsed + " cartons of yogurt for this month, with a weekly average of " + averageWeek + " Based on this information, you should order at least " + casesNeeded + " cases.");
