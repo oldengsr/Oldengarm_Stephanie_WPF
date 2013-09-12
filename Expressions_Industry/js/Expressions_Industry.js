@@ -6,13 +6,13 @@ var yogurtCase = 6; //6 cartons per case
 
 var yogurtUse = new Array(4); //use over one particular month
 yogurtUse[0] = a
-console.log(yogurtUse[0]);
+console.log(yogurtUse[0]); //print to console
 yogurtUse[1] = b
-console.log(yogurtUse[1]);
+console.log(yogurtUse[1]); //print to console
 yogurtUse[2] = c
-console.log(yogurtUse[2]);
+console.log(yogurtUse[2]); //print to console
 yogurtUse[3] = d
-console.log(yogurtUse[3]);
+console.log(yogurtUse[3]); //print to console
 
 var a = prompt("How many cartons were used in Week 1?");
 var b = prompt("How many cartons were used in Week 2?");
