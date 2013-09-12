@@ -12,7 +12,9 @@ var pantyHose = prompt("How many pantyhose do you require for your ladyboy trans
 console.log(pantyHose); //Drag queens use multiple pairs of hosery when performing so they don't have to shave their legs! How many does ours need each night?
 
 var weeklyLashes = dragShows * falseLashes
+//find out how many lashes are needed per week by multiplying the number of shows by the number of pairs used for each show.
 
 var weeklyHose = pantyHose * dragShows
+//find out how many pairs of hosery are needed by multiplying the number of pantyhose used each night and the number of shows per week.
 
 alert("Based on your inputs, you'll need " + weeklyLashes + " pairs of false eyelashes and " + weeklyHose + " pairs of pantyhose a week, Hunty!");
