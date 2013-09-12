@@ -11,4 +11,8 @@ console.log(falseLashes);
 var pantyHose = prompt("How many pantyhose do you require for your ladyboy transformation each night?");
 console.log(pantyHose);
 
+var weeklyLashes = dragShows * falseLashes
+
+var weeklyHose = pantyHose * dragShows
+
 alert("Based on your inputs, you'll need " + weeklyLashes + " pairs of false eyelashes and " + weeklyHose + " pairs of pantyhose a week, Hunty!");
