@@ -2,7 +2,7 @@
 
 //Inspired by RuPaul's Dragulator from the Logo show, Drag U, I am creating a literal calculator for a Drag Queen's weekly needs.
 
-var dragShows = prompt("Girl, how many fabulous shows do you perform each week?"); //A girl's got to work. Find out how many shows our performer stars in per week.
+var dragShows = prompt("Welcome to the Drag Queen Essentials Calculator!" + "\n" + "\n" +  "Girl, how many fabulous shows do you perform each week?"); //A girl's got to work. Find out how many shows our performer stars in per week.
 console.log(dragShows); //print to console
 
 var falseLashes = prompt("Lashes are everything! How many pairs do you use to create the illusion?"); //Most drag queens use multiple pairs of lashes to create their look. Find out how many our girl uses each night.
@@ -17,4 +17,4 @@ var weeklyLashes = dragShows * falseLashes
 var weeklyHose = pantyHose * dragShows
 //find out how many pairs of hosery are needed by multiplying the number of pantyhose used each night and the number of shows per week.
 
-alert("Based on your inputs, you'll need " + weeklyLashes + " pairs of false eyelashes and " + weeklyHose + " pairs of pantyhose a week, Hunty!");
+alert("Based on your inputs, you'll need " + weeklyLashes + " pairs of false eyelashes and " + weeklyHose + " pairs of pantyhose a week, Hunty! Now put on those stilettos and WERK!");
