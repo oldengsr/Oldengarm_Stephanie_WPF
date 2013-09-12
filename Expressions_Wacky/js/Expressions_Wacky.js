@@ -3,7 +3,7 @@
 //Inspired by RuPaul's Dragulator from the Logo show, Drag U, I am creating a literal calculator for a Drag Queen's weekly needs.
 
 var dragShows = prompt("Girl, how many fabulous shows do you perform each week?");
-console.log(dragShows);
+console.log(dragShows); //A girl's got to work. Find out how many shows our performer stars in per week.
 
 var falseLashes = prompt("Lashes are everything! How many pairs do you use to create the illusion?");
 console.log(falseLashes);
