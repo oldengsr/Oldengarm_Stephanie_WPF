@@ -9,7 +9,7 @@ var falseLashes = prompt("Lashes are everything! How many pairs do you use to cr
 console.log(falseLashes); //Most drag queens use multiple pairs of lashes to create their look. Find out how many our girl uses each night.
 
 var pantyHose = prompt("How many pantyhose do you require for your ladyboy transformation each night?");
-console.log(pantyHose);
+console.log(pantyHose); //Drag queens use multiple pairs of hosery when performing so they don't have to shave their legs! How many does ours need each night?
 
 var weeklyLashes = dragShows * falseLashes
 
