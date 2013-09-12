@@ -22,8 +22,9 @@ var d = prompt("How many cartons were used in Week 4?");
 var totalUsed = +a + +b + +c + +d //add together user input for each week for month's use
 
 var averageWeek = totalUsed / 4
+//find average used per week by dividing the total used by 4 weeks.
 
 var casesNeeded = totalUsed / 6
 //divide the total used for the month by the 6 cartons in each case to find how many cases are needed.
 
-alert("You have used " + totalUsed + " cartons of yogurt for this month, with a weekly average of " + averageWeek + " Based on this information, you should order at least " + casesNeeded + " cases.");
+alert("You have used " + totalUsed + " cartons of yogurt for this month, with a weekly average of " + averageWeek + ". Based on this information, you should order at least " + casesNeeded + " cases.");
