@@ -6,7 +6,7 @@ var dragShows = prompt("Girl, how many fabulous shows do you perform each week?"
 console.log(dragShows); //A girl's got to work. Find out how many shows our performer stars in per week.
 
 var falseLashes = prompt("Lashes are everything! How many pairs do you use to create the illusion?");
-console.log(falseLashes);
+console.log(falseLashes); //Most drag queens use multiple pairs of lashes to create their look. Find out how many our girl uses each night.
 
 var pantyHose = prompt("How many pantyhose do you require for your ladyboy transformation each night?");
 console.log(pantyHose);
