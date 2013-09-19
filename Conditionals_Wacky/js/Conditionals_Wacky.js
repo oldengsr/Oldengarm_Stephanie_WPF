@@ -15,7 +15,7 @@ if (districtNumber <= 4 && specialTalent){
 }else if (districtNumber == 12 && specialTalent){
         console.log("The odds do not look to be in your favor. Good luck.");
 }
-//District 12 is at a disadvantage to the other Districts. Regardless of talent, the Tributes from Districts 1 thru 4 train for the Games and usually win.
+//District 12 is always at a disadvantage to the other Districts.
 else {
         console.log("It seems you may have a fighting chance. May the odds be ever in your favor.");
 }
