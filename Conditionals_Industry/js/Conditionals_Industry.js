@@ -1,6 +1,6 @@
 // Stephanie Oldengarm, Sept. 18, 2013, Conditionals - Industry
 
-//Frequent Diner program allows for a free small yogurt every time you reach $50 spent on your Frequent Diner account.
+//Frequent Diner program allows for a free small yogurt every time you reach $50 spent on your Frequent Diner account. $1 = 1 point.
 
 var freeYogurtMin = 50;
 //you need a minimum of 50 points to recieve a free small
