@@ -13,9 +13,9 @@ var leftOverPoints = freqDinerCredit - freeYogurtMin;
 //tell user how many points they have left over.
 
 //if you have 50 points or more
-
-//if the freqDinerCredit is greater than or equal to freeYogurtMin, the user will recieve a free small yogurt. //relational operator
-
-//Let user know how many points they have after earning their free small yogurt.
-
+if(freqDinerCredit >= freeYogurtMin){ //if the freqDinerCredit is greater than or equal to freeYogurtMin, the user will recieve a free small yogurt. //relational operator
+	console.log("Congratulations, " + userName + "! You have " + freqDinerCredit + " points and will recieve a FREE small yogurt! You now have " + leftOverPoints + " points. A free small yogurt is earned with every 50 points!") //Let user know how many points they have after earning their free small yogurt.
+}else{
+	console.log("Sorry, you're not quite there yet! You need 50 points to earn a free small!")
+}
 //if user has not reached 50 points, they will recieve a notification that they aren't there yet.
