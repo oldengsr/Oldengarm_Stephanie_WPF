@@ -4,11 +4,14 @@
 
 var freeYogurtMin = 50;
 //you need a minimum of 50 points to recieve a free small
+
 var userName = prompt("To access your Frequent Diner information, please enter your first and last name:");
 //prompt #1 collect user information
+
 var freqDinerCredit = prompt("How many Frequent Diner Points do you have?");
 //prompt #2 collect user information
 //two prompts to collect user information
+
 var leftOverPoints = freqDinerCredit - freeYogurtMin;
 //tell user how many points they have left over.
 
