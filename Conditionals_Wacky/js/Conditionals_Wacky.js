@@ -8,8 +8,14 @@ var specialTalent = prompt("Do you have a special talent? Please answer yes or n
 
 //The Districts 1, 2, and 4 usually stand a higher chance of winning the Games, and are called Careers, because they often enjoy and train specifically to be Tributes.
 
+if (districtNumber <= 4 && specialTalent){
 //If you are from 1, 2, or 4, and possess a special talent, your odds of winning are very high.
-
+	console.log("The odds seem to be in your favor, Tribute.");  
 //If you are from 1, 2 or 4, and do not possess a special talent, while it can make the Games harder, you are still in a position to win.
-
+}else if (districtNumber == 12 && specialTalent){
+        console.log("The odds do not look to be in your favor. Good luck.");
+}
 //District 12 is at a disadvantage to the other Districts.
+else {
+        console.log("It seems you may have a fighting chance. May the odds be ever in your favor.");
+}
