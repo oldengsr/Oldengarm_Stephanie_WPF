@@ -1,6 +1,6 @@
 // Stephanie Oldengarm, Sept. 18, 2013, Conditionals - Personal
 
-//How quickly can I catch up on my favorite TV show?
+//Can I catch up on my favorite TV show within a week?
 
 var totalEpisodes = prompt("We are calculating how quickly you can catch up on a favorite TV show. How many episodes do you need to catch up on?");
 //user prompt #1 how many episodes you have left.
