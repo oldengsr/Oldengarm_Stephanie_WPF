@@ -2,9 +2,9 @@
 
 //I recently finished reading The Hunger Games trilogy by Suzanne Collins, and wanted to use a Victory Odds as my Wacky Conditional example.
 
-//Prompt for District number
+var districtNumber = prompt("Welcome to the Hunger Games. Enter your District (1-12):"); //Prompt for District number
 
-//Tributes with a special talent (archery, sword throwing, etc.) have a higher chance of winning tham those without.
+var specialTalent = prompt("Do you have a special talent? Please answer yes or no."); //Tributes with a special talent (archery, sword throwing, etc.) have a higher chance of winning tham those without.
 
 //The Districts 1, 2, and 4 usually stand a higher chance of winning the Games, and are called Careers, because they often enjoy and train specifically to be Tributes.
 
