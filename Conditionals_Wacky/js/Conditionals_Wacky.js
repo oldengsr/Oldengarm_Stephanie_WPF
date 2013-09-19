@@ -19,3 +19,4 @@ if (districtNumber <= 4 && specialTalent){
 else {
         console.log("It seems you may have a fighting chance. May the odds be ever in your favor.");
 }
+//if you are in Districts 5-11 you still hold a higher chance of winning the Games.
