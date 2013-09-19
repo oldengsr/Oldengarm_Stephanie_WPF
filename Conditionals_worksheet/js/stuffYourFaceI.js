@@ -2,7 +2,7 @@
 
 //You must weigh 250 lbs. or more to be in heavyweight division of pie eating contest
 
-compWeight = 245;
+compWeight = prompt("How much does the competitor weigh?");
 minWeight = 250;
 
 if(compWeight >= 250){
@@ -11,4 +11,4 @@ if(compWeight >= 250){
 }else{
 	console.log("The competitor needs to gain some weight!");
 }
-//or else the must gain weight
+//or else they must gain weight
