@@ -7,7 +7,17 @@
 //return - circumference
 //print to console "The circumference of the circle is X"
 
+var pi = 3.14;
+var radius = prompt("Please enter the radius of the circle.");
+var diameter = radius * 2;
+var circumference = calcCircum(diameter, pi);
 
+console.log("The circumference of the circle is " + circumference);
+
+function calcCircum(diameter, pi)
+{
+	return diameter * pi
+}
 
 
 //STUNG!
@@ -15,14 +25,3 @@
 //parameters - victim weight in pounds
 //return - no. bee stings
 //print to console "It takes X bee stings to kill this animal"
-
-var weight = prompt("How many pounds does the animal weigh?");
-var stingsPerPound = 8.666666667;
-
-var totalStings = function(weight, stingsPerPound){
-  var deadlyBeeStings =  weight * stingsPerPound;	
-  return deadlyBeeStings;
-}
-
-var a = totalStings(weight, stingsPerPound);
-console.log("It takes " + a + " bee stings to kill this animal.");
