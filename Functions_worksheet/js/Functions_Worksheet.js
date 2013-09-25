@@ -17,9 +17,18 @@ function calcCircum(diameter, pi)
 	return diameter * pi //return - circumference
 }
 
-
 //STUNG!
 //Calculate how many bee stings are needed to kill an animal.
 //parameters - victim weight in pounds
 //return - no. bee stings
 //print to console "It takes X bee stings to kill this animal"
+
+var victimWeight = prompt("Please enter the weight of the animal.");
+var deadlyBeeStings = 8.666666667 * victimWeight;
+
+console.log("It takes " + deadlyBeeStings + " bee stings to kill this animal.");
+
+function deadlyStingsFunction(deadlyBeeStings)
+{
+	return deadlyBeeStings
+}
