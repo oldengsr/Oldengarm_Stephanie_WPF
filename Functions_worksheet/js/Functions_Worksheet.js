@@ -3,20 +3,18 @@
 
 //CIRCUMFERENCE
 //Calculate the circumference of a circle.
-//parameters - radius
-//return - circumference
-//print to console "The circumference of the circle is X"
 
 var pi = 3.14;
-var radius = prompt("Please enter the radius of the circle.");
+var radius = prompt("Please enter the radius of the circle."); //parameters - radius
 var diameter = radius * 2;
 var circumference = calcCircum(diameter, pi);
 
 console.log("The circumference of the circle is " + circumference);
+//print to console "The circumference of the circle is X"
 
 function calcCircum(diameter, pi)
 {
-	return diameter * pi
+	return diameter * pi //return - circumference
 }
 
 
