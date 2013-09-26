@@ -11,3 +11,11 @@ function calsPerCup(cupSize, calCup, limitCal){ //function and parameters
 	return totalCals; //return statement
 }
 var totalCals = calsPerCup(ouncesWant, calsPerOunce, calLimit); //return statement
+
+//if statement, true
+if(totalCals === true){ //if the total calories of the cup are less than or equal to the calorie limit, they can have the yogurt.
+	console.log("Looks like your choice fits your needs! Enjoy!");
+}else{ //if the total calories in the cup are not less than or equal to the calorie limit, they cannot have the yogurt size that they chose.
+	console.log("Oops, looks like you need to downgrade your size to meet your limit!");
+}
+//result to console
