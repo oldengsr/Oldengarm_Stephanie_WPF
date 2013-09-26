@@ -11,3 +11,5 @@ function bloodSucker(desires, humanNeeds, panic){ //function with parameters
 	var safety = desires < humanNeeds && desires < panic;
 	return safety; //return statement
 }
+
+var smartVamp = bloodSucker(bloodNeeds, bloodTotal, shock); //arguement
