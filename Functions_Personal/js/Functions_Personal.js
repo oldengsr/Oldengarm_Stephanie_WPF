@@ -11,3 +11,11 @@ function oilChange(milesLeft){ //function and parameter
 }
 
 var changeItMiles = oilChange(carMileage); //argument
+
+if(changeItMiles === true){ //condition
+	console.log("You are overdue for an oil change."); //code to be executed if miles are over 3000
+}else if(changeItMiles === false){ //condition
+	console.log("You are not due for an oil change yet."); //code to be executed if miles are under 3000
+}
+//else if statement
+//result to console
