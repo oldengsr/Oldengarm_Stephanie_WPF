@@ -9,3 +9,5 @@ function oilChange(milesLeft){ //function and parameter
 	var changeItMiles = milesLeft >= 3000;
 	return changeItMiles; //return statement
 }
+
+var changeItMiles = oilChange(carMileage); //argument
