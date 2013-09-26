@@ -6,3 +6,8 @@ var bloodTotal = 5; //Adult human contains approx. 5 litres of blood
 var shock = bloodTotal * (30/100);
 //blood loss resulting in shock / alerting humans to vampire presence
 var bloodNeeds = prompt("How much blood do you require each night?"); //prompt
+
+function bloodSucker(desires, humanNeeds, panic){ //function with parameters
+	var safety = desires < humanNeeds && desires < panic;
+	return safety; //return statement
+}
