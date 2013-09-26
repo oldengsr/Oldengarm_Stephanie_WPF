@@ -10,3 +10,4 @@ function calsPerCup(cupSize, calCup, limitCal){ //function and parameters
 	var totalCals = (cupSize * calCup) <= limitCal;
 	return totalCals; //return statement
 }
+var totalCals = calsPerCup(ouncesWant, calsPerOunce, calLimit); //return statement
