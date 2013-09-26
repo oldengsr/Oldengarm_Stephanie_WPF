@@ -13,3 +13,7 @@ function bloodSucker(desires, humanNeeds, panic){ //function with parameters
 }
 
 var smartVamp = bloodSucker(bloodNeeds, bloodTotal, shock); //arguement
+
+console.log((smartVamp === true) ? ("Your skills are of the highest caliber.") : ("You must be batty! Back to Bloodsucking 101!"));
+//ternary
+//result in console
