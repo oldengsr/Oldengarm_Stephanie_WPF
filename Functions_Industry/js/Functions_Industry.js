@@ -4,3 +4,5 @@
 
 var ouncesWant = prompt("How many ounces of yogurt do you want?"); //prompt
 var calsPerOunce = prompt("How many calories per ounce?"); //prompt
+var calLimit = prompt("What is your calorie limit for your yogurt?"); //prompt
+
