@@ -10,7 +10,7 @@ function calsPerCup(cupSize, calCup, limitCal){ //function and parameters
 	var totalCals = (cupSize * calCup) <= limitCal;
 	return totalCals; //return statement
 }
-var totalCals = calsPerCup(ouncesWant, calsPerOunce, calLimit); //return statement
+var totalCals = calsPerCup(ouncesWant, calsPerOunce, calLimit); //arguement
 
 //if statement, true
 if(totalCals === true){ //if the total calories of the cup are less than or equal to the calorie limit, they can have the yogurt.
